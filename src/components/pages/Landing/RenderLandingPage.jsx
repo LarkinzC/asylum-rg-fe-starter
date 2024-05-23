@@ -23,7 +23,7 @@ function RenderLandingPage(props) {
   const handleReadMoreButton = () => {
     history.push('https://humanrightsfirst.org/library/uscis-records-reveal-systemic-disparities-in-asylum-decisions/');
   };
-  
+
   return (
     <div className="main">
       <div className="header">
@@ -57,6 +57,10 @@ function RenderLandingPage(props) {
           onClick={() => history.push('/graphs')}
         >
           View the Data
+        </Button>
+        <Button type='default'
+        style={{ backgroundColor: '#404C4A', color: '#FFFFFF' , marginLeft: '25px'}}>
+          Download the Data
         </Button>
       </div>
 
